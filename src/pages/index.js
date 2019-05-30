@@ -33,7 +33,7 @@ export default class Index extends React.Component<Props> {
             <DescriptionText>
               Progression frameworks are tools that help us evaluate and pay our
               staff consistently, and help people understand how to progress in
-              their work.{' '}
+              their work.  We intend for this to aid staff and their managers to use in constructive talks in quarterly reviews.{' '}
             </DescriptionText>{' '}
             <DescriptionText>
               We & apos; ll be adding more frameworks as we build them, and
