@@ -85,8 +85,6 @@ export const Subtitle = styled.h3`
 
 export const DefaultStyledLink = styled(Link)`
   cursor: pointer;
-  font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
   color: ${MIDNIGHT_SKY} !important;
@@ -115,7 +113,7 @@ export const StyledLink = styled(PartialNavLink)`
   font-family: 'MaisonNeue', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1em;
   color: ${MIDNIGHT_SKY} !important;
   width: 100%;
   height: 100%;
@@ -202,7 +200,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100% !important;
-  
+
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     padding: env(safe-area-inset-top) env(safe-area-inset-right)
     env(safe-area-inset-bottom) env(safe-area-inset-left);
@@ -340,7 +338,7 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  background-color: #f7f7f7;
+  background-color: rgba(0, 189, 167, 0.47);
   color: black;
   overflow-x: hidden;
   overflow-y: auto;
@@ -401,7 +399,7 @@ export const SidebarPaddingSection = styled.div`
     css`
       padding-bottom: 3rem;
     `}
-    
+
   ${props =>
     props.borderedTop &&
     css`
@@ -417,9 +415,9 @@ export const SidebarPaddingSection = styled.div`
   ${props =>
     props.top &&
     css`
-      margin-top: 3rem;
+      margin-top: 1.5rem;
     `}
-      
+
   ${props =>
     props.border &&
     css`
@@ -443,13 +441,9 @@ export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
   max-height: 54.6px;
-  max-width: 63px;
-  min-width: 39px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 39px;
-    max-width: 45px;
-    min-width: 39px;
   }
 `
 

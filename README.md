@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-    Progression at Monzo
+    Progression at Travelopia
 </h1>
 
 🎉 Welcome to the Progression at Monzo repository

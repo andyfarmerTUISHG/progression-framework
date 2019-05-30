@@ -2,7 +2,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import LowFundsAnimation from '../components/animations/lowFunds'
 import {
   ErrorPageLink,
   ErrorPageHeader,
@@ -34,9 +33,6 @@ export default class Frameworks extends React.Component<Props> {
                   Go back home&nbsp;&rsaquo;
                 </ErrorPageLink>
               </div>
-              <div className="grid-col-12 grid-col-4-md">
-                <LowFundsAnimation />
-              </div>
             </div>
           </div>
         </div>
@@ -46,10 +42,11 @@ export default class Frameworks extends React.Component<Props> {
               <div className="grid-col-12 grid-col-6-md u-align-center-md">
                 <h3>Did you know&hellip;</h3>
                 <p>
-                  In 2008, there were 4,916 claims (totalling &pound;113,000)
-                  for bank notes which had been eaten by pets.
+                  Travelopia brands are split between six sectors: Expeditions,
+                  Tailormade, Marine, Education, US Tour Operators and Events.
+                  Each sector has its own unique offering and houses a number of
+                  different brands.
                 </p>
-                <h1>🐶 🐱</h1>
               </div>
             </div>
           </div>

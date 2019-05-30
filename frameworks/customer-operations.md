@@ -8,7 +8,7 @@ levels: 2
 homepage: false
 topics:
   - name: "knowledgeandimpact"
-    title: "🧠 Knowledge & Impact"
+    title: "Knowledge & Impact"
     content:
       - level: 1
         exampleCriteria:

@@ -1,8 +1,6 @@
 // @flow
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import Layout from '../components/layout'
 import {
   Subtitle,
@@ -25,7 +23,7 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Progression at Monzo 🎉</Title>
+            <Title>Progression at Travelopia</Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
@@ -35,10 +33,6 @@ export default class Index extends React.Component<Props> {
               Progression frameworks are tools that help us evaluate and pay our
               staff consistently, and help people understand how to progress in
               their work.
-            </DescriptionText>
-            <DescriptionText>
-              We&apos;ve put them here for everyone at Monzo (and anyone in the
-              world!) to use.
             </DescriptionText>
             <DescriptionText>
               We&apos;ll be adding more frameworks as we build them, and
@@ -52,21 +46,13 @@ export default class Index extends React.Component<Props> {
               for your own projects!
             </DescriptionText>
             <DescriptionText>
-              To get involved, go to{' '}
-              <a href="https://github.com/monzo/progression-framework">
-                <FontAwesomeIcon icon={faGithub} />{' '}
-                @monzo/progression-framework.
-              </a>
+              Take a look around and let us know what you think!
             </DescriptionText>
             <DescriptionText>
-              You can find out more about progression at Monzo and what it means
-              for us in this{' '}
-              <a href="https://monzo.com/blog/2019/01/07/progression">
-                blog post.
+              Inspired by{' '}
+              <a href="https://progression.monzo.com/">
+                https://progression.monzo.com/
               </a>
-            </DescriptionText>
-            <DescriptionText>
-              Take a look around and let us know what you think! 🚀
             </DescriptionText>
           </Description>
         </DescriptionView>

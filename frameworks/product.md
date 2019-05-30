@@ -8,7 +8,7 @@ levels: 5
 homepage: false
 topics:
   - name: "problem solving"
-    title: "🧠 Problem solving"
+    title: "Problem solving"
     content:
       - level: 1
         criteria:

@@ -8,7 +8,7 @@ levels: 7
 homepage: false
 topics:
   - name: "domain-knowledge"
-    title: "🧠 Domain Knowledge and Skills"
+    title: "Domain Knowledge and Skills"
     content:
       - level: 1
         criteria:

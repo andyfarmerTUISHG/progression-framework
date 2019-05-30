@@ -141,13 +141,11 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
               to="/"
               state={{ openedTopics }}
             >
-              <EmojiListItem>🏠</EmojiListItem>
               Home
             </DefaultStyledLink>
           </ListElement>
           <ListElement key={Math.random()}>
             <StyledLink to="/generic" state={{ openedTopics }}>
-              <EmojiListItem>📄</EmojiListItem>
               Generic
             </StyledLink>
           </ListElement>
